@@ -1,0 +1,389 @@
+/* Global styles */
+
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #0E1734;
+  border: 0px;
+  border-radius: 4px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.regular-text {
+  color: #848FAC;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.title_h2 {
+  color: #192252;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+/* Header styles */
+
+.header {
+  padding: 42px 120px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 36px;
+}
+
+.header__links-list-item {
+  color: #192252;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style-type: none;
+}
+
+.header__button{
+  padding: 14px 16px;
+}
+
+/* First style */
+
+.first {
+  padding: 78px 120px;
+  display: flex;
+  gap: 24px;
+}
+
+.first__text-block-title {
+  margin-top: 135px;
+  color: #192252;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.009em;
+}
+
+.first__text-block-text {
+  margin-top: 24px;
+  max-width: 485px;
+}
+
+.first__text-block-button {
+  padding: 16px 32px;
+  margin-top: 59px;
+}
+
+.image-mosaic {
+  align-self: flex-start;
+}
+
+.image-mosaic-bottom{
+  margin-top: 81px;
+  margin-bottom: 16px;
+}
+
+/* About styles */
+
+.about {
+  padding: 80px 120px;
+  display: flex;
+  gap: 126px;
+}
+
+.about__image {
+  align-self: flex-start;
+}
+
+.about__text-block-title {
+  margin-top: 113px;
+}
+
+.about__text-block-text {
+  margin-top: 28px;
+  max-width: 584px;
+}
+
+
+.about__text-block-button {
+  padding: 16px 32px;
+  margin-top: 17px;
+}
+
+/* Benefits style */
+
+.benefits {
+  padding: 80px 226px 80px 120px;
+}
+
+.benefits__card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.benefits__card-list {
+  list-style-type: none;
+}
+
+.benefits-card {
+  display: flex;
+  gap: 126px;
+}
+
+.reverse-card {
+  flex-direction: row-reverse;
+}
+
+.benefits-card__text-block-title {
+  margin-top: 101px;
+}
+
+.reverse-card > .benefits-card__text-block > .benefits-card__text-block-title {
+  margin-top: 129px;
+}
+
+.benefits-card__text-block-text {
+  margin-top: 24px;
+}
+
+/* Interiors style */
+
+.interiors {
+  display: flex;
+  flex-direction: column;
+  gap: 37.65px;
+}
+
+.interiors__title {
+  place-self: center;
+  margin-top: 79.27px;
+}
+
+.interiors__images {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 3px;
+}
+
+.interiors__image_1 {
+  grid-row: span 3;
+}
+
+/* Reservation style */
+
+.reservation {
+  padding: 80px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 86px;
+}
+
+.reservation__text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__text-block-text {
+  margin-top: 24px;
+  max-width: 588px;
+  text-align: center;
+}
+
+.reservation__text-block-button {
+  margin-top: 32px;
+  padding: 16px 32px;
+}
+
+.reservation__card-list {
+  display: flex;
+  gap: 24px;
+}
+
+.reservation__card-list-item {
+  list-style-type: none;
+}
+
+.reservation-card {
+  min-height: 713px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-card__title {
+  margin-top: 32px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.017em;
+}
+
+.reservation-card__text {
+  margin-top: 16px;
+  flex: 1;
+}
+
+.reservation-card__link-block {
+  color: #424F7B;
+  display: flex;
+  gap: 10px;
+}
+
+/* Review Style */
+
+.review {
+  padding: 80px 324px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.review__author-photo {
+  margin-top: 62px;
+  max-width: 120px;
+}
+
+.review__author-text {
+  margin-top: 44px;
+}
+
+.review__author-name {
+  margin-top: 40px;
+  color: #192252;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.review__slider {
+  margin-top: 24px;
+  max-width: 72px;
+}
+
+/* Footer styles */
+
+.footer {
+  padding: 120px 120px;
+  background-color: #0B265A;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__regular-text {
+  color: #D9DBDE;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer__left-side {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  max-width: 229px;
+}
+
+.footer__slogan {
+  margin-top: 13px;
+  max-width: 186px;
+  color: #D9DBDE;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.footer__social-list {
+  margin-top: 36px;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.footer__social-logo {
+  max-height: 32px;
+}
+
+.footer__right-side {
+  display: flex;
+  gap: 95px;
+}
+
+.footer__menu-houses {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+.houses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.footer__menu-booking {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+.booking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style-type: none;
+}
+
+
+.contacts {
+  max-width: 186px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-style: normal;
+}
+
+.contacts-title {
+  font-weight: 700;
+}
